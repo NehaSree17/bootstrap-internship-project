@@ -1,0 +1,33 @@
+/* css/custom.css - small, focused overrides */
+:root{
+  --brand: #0d6efd; /* bootstrap primary by default */
+}
+
+body{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background-color: #fff;
+  color: #222;
+}
+
+/* hero spacing */
+header.bg-light{
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+/* small custom card lift */
+.card {
+  border-radius: .75rem;
+}
+
+/* Make footer stick visually */
+footer {
+  font-size: .9rem;
+}
+
+/* utility tweaks */
+.lead { font-size: 1.05rem; }
+
+@media (max-width: 767px){
+  header.bg-light { padding-top: 2rem; padding-bottom: 2rem; }
+}
